@@ -71,6 +71,143 @@
     .notice{display:none;margin-top:8px;color:var(--lime);font-size:12px}
     @media(max-width:800px){.links{display:none}.hero{padding:58px 0}.hero-grid,.method-grid,.cta{grid-template-columns:1fr}.visual{height:340px}.section-head{display:block}.section-head p{margin-top:15px}.services{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.cta{padding:30px}}
     @media(max-width:520px){.wrap{width:min(100% - 28px,1160px)}.nav{height:66px}.nav-cta{padding:11px 14px;font-size:11px}.hero-grid{gap:30px}h1{font-size:45px}.hero p{font-size:15px}.hero-note{gap:14px}.hero-note strong{font-size:16px}.visual{height:290px}.services{grid-template-columns:1fr}.service{min-height:150px}.service h3{margin-top:17px}.steps{grid-template-columns:1fr 1fr}.step{padding:16px}.step h3{font-size:15px}.cta{padding:25px 20px}section{padding:65px 0}}
+ 
+/* PAINTTECH — CONSTRUCTION BOLD */
+
+:root {
+  --bg: #111310;
+  --ink: #f5f5ef;
+  --muted: #a4a99e;
+  --lime: #d7ff35;
+  --dark: #191c17;
+  --line: #34392f;
+  --white: #20241e;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+header {
+  background: rgba(17, 19, 16, .96);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand, nav a {
+  color: var(--ink);
+}
+
+.brand-mark {
+  background: var(--lime);
+  color: #111310;
+  font-weight: 900;
+}
+
+h1, h2, h3 {
+  color: var(--ink);
+  font-weight: 900;
+  letter-spacing: -1.5px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.hero {
+  background: #191d16;
+  color: var(--ink);
+}
+
+.hero p, section p {
+  color: var(--muted);
+}
+
+.hero .visual {
+  background: #24291d;
+  border: 1px solid #454d32;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.visual-tag {
+  background: var(--lime);
+  color: #111310;
+  font-weight: 800;
+}
+
+button, .button, a.button {
+  background: var(--lime);
+  color: #111310;
+  border: 0;
+  border-radius: 3px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+button:hover, .button:hover {
+  background: #e5ff85;
+}
+
+section {
+  background: var(--bg);
+}
+
+.service, .price-card, .method-visual,
+form, .process-item {
+  background: var(--dark);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+
+.service h3, .service strong,
+#prices strong, #prices b {
+  color: var(--lime);
+}
+
+#prices {
+  background: #191d16;
+}
+
+#prices .price, #prices strong {
+  color: var(--lime);
+}
+
+#process {
+  background: #191d16;
+}
+
+#contacts {
+  background: #d7ff35;
+  color: #111310;
+}
+
+#contacts h2, #contacts h3,
+#contacts p, #contacts label {
+  color: #111310;
+}
+
+input, textarea {
+  background: #111310;
+  color: #fff;
+  border: 1px solid #454d32;
+  border-radius: 3px;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid var(--lime);
+}
+
+footer {
+  background: #0b0d0a;
+  color: #a4a99e;
+  border-top: 1px solid var(--line);
+}
+
+a {
+  transition: .2s ease;
+}
+
   </style>
 </head>
 <body>
