@@ -235,7 +235,163 @@ a {
   transition: .2s ease;
 }
 
+
     
+/* PAINTTECH — HERO REDESIGN */
+
+.hero {
+  background: #171717 !important;
+  color: #ffffff !important;
+  padding-top: 90px !important;
+  padding-bottom: 90px !important;
+}
+
+.hero h1 {
+  color: #ffffff !important;
+  font-size: clamp(42px, 6vw, 76px) !important;
+  line-height: 0.98 !important;
+  font-weight: 900 !important;
+  letter-spacing: -2px !important;
+  text-transform: uppercase;
+}
+
+.hero h1 em {
+  color: #ffc400 !important;
+  font-style: normal !important;
+}
+
+.hero p {
+  color: #dedede !important;
+  font-size: 17px !important;
+  line-height: 1.65 !important;
+  max-width: 570px;
+}
+
+.hero .eyebrow {
+  color: #ffc400 !important;
+  font-weight: 800 !important;
+  letter-spacing: 2px;
+}
+
+.hero .btn {
+  background: #ffc400 !important;
+  color: #171717 !important;
+  border: 2px solid #ffc400 !important;
+  font-weight: 900 !important;
+}
+
+.hero .text-link {
+  color: #ffffff !important;
+}
+
+.hero-note {
+  border-top: 1px solid #444 !important;
+}
+
+.hero-note strong {
+  color: #ffc400 !important;
+}
+
+.hero-note div {
+  color: #cccccc !important;
+}
+
+/* Геометрическая иллюстрация */
+
+.hero .visual {
+  position: relative;
+  min-height: 440px;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, #ffc400 0 48%, #e5a900 48% 100%) !important;
+  border: 3px solid #ffc400;
+  border-radius: 4px !important;
+}
+
+.hero .wall {
+  position: absolute;
+  width: 65%;
+  height: 68%;
+  top: 12%;
+  left: 12%;
+  background: #202020 !important;
+  border: 8px solid #303030;
+  transform: skewY(-5deg);
+}
+
+.hero .floor {
+  position: absolute;
+  width: 110%;
+  height: 24%;
+  bottom: 0;
+  left: -5%;
+  background: #111111 !important;
+  transform: skewY(-8deg);
+}
+
+.hero .spray {
+  position: absolute;
+  width: 75%;
+  height: 12%;
+  top: 43%;
+  left: 13%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #ffc400,
+    #fff1a8,
+    transparent
+  ) !important;
+  transform: rotate(-24deg);
+  filter: blur(2px);
+}
+
+.hero .machine {
+  position: absolute;
+  width: 90px;
+  height: 145px;
+  right: 12%;
+  bottom: 17%;
+  background: #ffc400 !important;
+  border: 9px solid #171717;
+  border-radius: 12px 12px 4px 4px;
+  box-shadow: 12px 12px 0 #111111;
+}
+
+.hero .visual-tag {
+  position: absolute;
+  left: 7%;
+  bottom: 7%;
+  z-index: 3;
+  padding: 12px 16px;
+  background: #ffc400 !important;
+  color: #171717 !important;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.hero .visual-tag span {
+  display: block;
+  color: #171717 !important;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+@media (max-width: 760px) {
+  .hero {
+    padding-top: 55px !important;
+    padding-bottom: 55px !important;
+  }
+
+  .hero .visual {
+    min-height: 320px;
+  }
+
+  .hero h1 {
+    font-size: clamp(38px, 11vw, 56px) !important;
+  }
+}
+
   </style>
 </head>
 <body>
